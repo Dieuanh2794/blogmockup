@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'UVNMuaThuRegular';
+    src: url('fonts/UVNMuaThuRegular/UVNMuaThuRegular.eot');
+    src: url('fonts/UVNMuaThuRegular/UVNMuaThuRegular.eot') format('embedded-opentype'),
+         url('fonts/UVNMuaThuRegular/UVNMuaThuRegular.woff2') format('woff2'),
+         url('fonts/UVNMuaThuRegular/UVNMuaThuRegular.woff') format('woff'),
+         url('fonts/UVNMuaThuRegular/UVNMuaThuRegular.ttf') format('truetype'),
+         url('fonts/UVNMuaThuRegular/UVNMuaThuRegular.svg#UVNMuaThuRegular') format('svg');
+}

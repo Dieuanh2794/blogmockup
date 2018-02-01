@@ -5,10 +5,11 @@
 }
 body {
   font-family: Calibri;
+  background: #f2f2f2;
 }
 a {
   text-decoration: none;
-  transition: .3s ease;
+  transition: .2s ease;
 }
 a:hover {
   text-decoration: underline;
@@ -65,7 +66,7 @@ a:hover {
 .left-info h2 a {
   text-decoration: none;
   color: #000;
-  transition: .3s ease;
+  transition: .2s ease;
 }
 .left-info h2 a:hover {
   text-decoration: underline;
@@ -90,7 +91,7 @@ a:hover {
   color: #000;
 }
 .left-social a i {
-  transition: .3s ease;
+  transition: .2s ease;
 }
 .left-social a:hover i {
   color: #989898;
@@ -126,7 +127,7 @@ a:hover {
   width: 36px;
   height: auto;
   opacity: 0;
-  transition: .3s ease;
+  transition: .2s ease;
 }
 .content-textarea figure:hover .share-on-img {
   opacity: 1;
@@ -142,7 +143,6 @@ a:hover {
   float: right;
 }
 .product-item {
-  width: auto;
   max-width: 32%;
   float: left;
   padding: 10px;
@@ -150,6 +150,7 @@ a:hover {
   border: 1px solid #eee;
   box-shadow: 0 5px 5px #ddd;
   margin: 2px;
+  background: #FFF;
 }
 .product-item img {
   max-width: 100%;
@@ -195,9 +196,19 @@ a:hover {
   text-align: center;
   color: #989898;
   margin: 5px 0;
+  position: relative;
 }
 .product-item figcaption {
   font-size: 13px;
   font-style: italic;
   margin-top: 5px;
+}
+.product-item figure:hover .share-on-img {
+  opacity: 1;
+}
+.product-item.img-only figure {
+  margin: 0;
+}
+.img-only figure {
+  text-align: left;
 }

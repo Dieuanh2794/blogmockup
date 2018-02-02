@@ -178,6 +178,11 @@ a:hover {
 .product-item a:hover {
   color: #989898;
 }
+.price {
+  margin: 10px 0 5px 0;
+  color: #333;
+  font-size: 14px;
+}
 .text-only {
   text-align: justify;
 }

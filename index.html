@@ -5,7 +5,6 @@
   <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css"/>
   <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.css"/>
-  <link rel="stylesheet" type="text/css" href="css/component.css"/>
 </head>
 <body>
 <div id="container">
@@ -90,6 +89,9 @@
         <figure>
           <a href="" target="_blank" title="Bàn trà và ghế sofa thư giãn ở khu vực tầng hai bên cạnh các phòng ngủ."><img itemprop="image" src="http://afamilycdn.com/2018/1/30/photo-2-15172999269751633237959.jpg" alt='Bên trên nó là chiếc cửa thông gió thiết kế theo dạng lam gỗ vừa cản được ánh sáng trực tiếp bên ngoài làm chói mắt đồng thời điều hòa không khí giữa khu vực trong và ngoài nhà.' /></a>
           <figcaption itemprop="name">Bên trên nó là chiếc cửa thông gió thiết kế theo dạng lam gỗ vừa cản được ánh sáng trực tiếp bên ngoài làm chói mắt đồng thời điều hòa không khí giữa khu vực trong và ngoài nhà.</figcaption>
+          <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            Price: <span itemprop="price" content="100000">100,000</span><span itemprop="priceCurrency" content="VND">VND</span>
+          </div>
           <div class="share-on-img">
             <!-- AddToAny BEGIN -->
             <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
@@ -123,9 +125,12 @@
     </div>
   </div>
 </div>
+<link rel="stylesheet" type="text/css" href="css/component.css"/>
 <script type="text/javascript">
   $(document).ready(function() {
-    $('.grid').masonry();
+    setTimeout(function(){
+      $('.grid').masonry();
+    }, 500)
   });
 </script>
 <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>

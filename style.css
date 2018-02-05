@@ -18,6 +18,16 @@ a:hover {
   clear: both;
   display: block;
 }
+.invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
 #container {
   width: 100%;
   overflow: hidden;
@@ -166,7 +176,7 @@ a:hover {
   display: inline-block;
 }
 .product-item > a:after {
-  content: "\f08e";
+  content: '\f08e';
   position: absolute;
   top: 50%;
   right: 0;
@@ -216,4 +226,57 @@ a:hover {
 }
 .img-only figure {
   text-align: left;
+}
+
+/* --- newsletter --- */
+.newsletter {
+  margin-top: 15px;
+}
+.newsletter h4 {
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.newsletter p {
+  padding: 0 40px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-style: italic;
+  color: #989898;
+}
+.form-nl {
+  width: 100%;
+  padding: 0 40px;
+  position: relative;
+  overflow: hidden;
+}
+.form-nl input {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  outline: none;
+  background: #FFF;
+}
+.form-nl button {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  right: 45px;
+  border: none;
+  outline: none;
+  background: transparent;
+  transform: translateY(-50%);
+  z-index: 999;
+  cursor: pointer;
+}
+.form-nl button:before {
+  content: '\f00c';
+  width: 100%;
+  height: 100%;
+  font-family: 'FontAwesome';
+  font-size: 16px;
+  color: #333;
 }

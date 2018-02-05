@@ -38,3 +38,11 @@ BANNER
   thumb
   link
   display
+
+- Cart
+- view product detail
+
+- Clothes
+- Accestories
+- Sneakers
+- Trends

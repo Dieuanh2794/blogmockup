@@ -2,6 +2,7 @@ PRODUCTS
   ID
   no
   type
+  feature
   name
   unsigned_name
   photo
@@ -46,3 +47,12 @@ BANNER
 - Accestories
 - Sneakers
 - Trends
+
+- Logo - ok
+- design
+- AMP
+- Mobile
+- hosting
+- SEO
+- Advertise
+- products
